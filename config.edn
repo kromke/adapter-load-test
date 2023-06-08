@@ -1,0 +1,13 @@
+{
+ :kafka-servers [["10.139.144.7" 9092]
+                 ["10.139.144.8" 9092]
+                 ["10.139.144.9" 9092]]
+ :topic "popd-sa-request"
+ :message-number 1
+ :key {:traceKey "uuid"
+       :requestType "ChangedParcelLocation"
+       :requestId "uuid"}
+ :value {:cadNum "27:17:0329201:1554"
+         :planGuid "c4f7aa3d-cd27-4dd2-8885-2954f69540bc" 
+         :userGuid "0b3dc370-bff0-4780-a9c2-4cd228be14ea"}
+}
