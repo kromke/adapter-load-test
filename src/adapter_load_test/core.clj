@@ -90,5 +90,5 @@ diff  %d min"
       (test-kafka conf (:message-number conf)))))
 
 (comment
-  (-main "/home/kromke/Документы/ЕГРН 2/tests-doc/sa-bft-dev.edn" "4")
+  (-main "/home/kromke/Документы/ЕГРН 2/tests-doc/sa-bft-dev.edn" "2")
    )
